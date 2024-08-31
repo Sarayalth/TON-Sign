@@ -1,4 +1,9 @@
-# TON-Sign
+# TON-Sign (but chatbox)
+modified version to send the next round type to the chatbox through osc
+
+
+
+## Original Readme
 ## By \~Emerald~
 **TON-Sign** is a cool lil app I made for the VRChat game *Terrors of Nowhere*. This asset uses OSC to display the next round type beside the start button, meaning you should never miss another Alternate round again!
 
