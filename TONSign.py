@@ -78,7 +78,7 @@ def monitor_round_types(log_file, known_round_types, osc_client):
             new_position = file.tell()
 
             for line in lines:
-                if (not first_run) and (round_type != "") and ("RoundOver" in line):
+                if (not first_run) and (round_type != "") and (("Round was valid." in line) or ("RoundOver" in line)):
                     print("~ Round ended! ~\n")
                     time.sleep(2)
                     osc_client.send_message("/chatbox/input", ["Next round: " + round_type, True, False])
